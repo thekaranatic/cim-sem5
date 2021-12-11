@@ -1,0 +1,73 @@
+<html>
+    <head>
+        <title>Z-Index Effect</title>
+
+        <style type="text/css">
+            .s1 {
+                position: absolute;
+                top: 100px;
+                left: 50px;
+                border: solid;
+                width: 300;
+                z-index: 0;
+                background-color: red;
+                padding: 80;
+            }
+
+            .s2 {
+                position: absolute;
+                top: 200px;
+                left: 100px;
+                border: solid;
+                width: 300;
+                z-index: 0;
+                background-color: green;
+                padding: 80;
+            }
+
+            .s3 {
+                position: absolute;
+                top: 300px;
+                left: 150px;
+                border: solid;
+                width: 300;
+                z-index: 0;
+                background-color: blue;
+                padding: 80;
+            }
+
+            .s4 {
+                position: absolute;
+                top: 400px;
+                left: 200px;
+                border: transparent;
+                width: 300;
+                z-index: 0;
+                background-color: yellow;
+                padding: 80;
+            }
+        </style>
+
+        <script type="text/javascript">
+            var top = "p4";
+
+            function f(newtop) {
+                var a = document.getElementById(top).style;
+                var b = document.getElementById(newtop).style;
+            }
+
+            a.zIndex = "0";
+            b.zIndex = "5";
+
+            top = newtop;
+        </script>
+    </head>
+
+    <body>
+        <h1>Z-Index Effect</h1>
+        <p id="p1" class="s1" onmouseover= f(p1)>RED</p>
+        <p id="p2" class="s2" onmouseover= f(p2)>GREEN</p>
+        <p id="p3" class="s3" onmouseover= f(p3)>BLUE</p>
+        <p id="p4" class="s4" onmouseover= f(p4)>YELLOW</p>
+    </body>
+</html>
