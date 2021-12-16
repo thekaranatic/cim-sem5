@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="hospital.css"?>
+
+
+<hospital>
+	<heading>Patients' Details</heading>
+	<patient>
+		<name>	
+		   <fname>First Name: Aditya</fname>
+		   <mname>Middle Name: Sunil</mname>
+		   <lname>Last Name: Sharma</lname>
+		</name>
+
+		<ssn>SSN: 102030</ssn>
+
+		<age>Age: 25</age>
+
+		<roomno>Room No.: 101</roomno>
+		
+		<insurance type = "primary">
+			<m_id>Prim. Member ID: M01</m_id>
+			<g_no>Prim. Group ID: G01</g_no>
+			<address>Address: Hubli, KA, India</address>
+		</insurance>
+
+		<insurance type = "secondary">
+			<m_id>Sec. Member ID: SM01</m_id>
+			<g_no>Sec. Group ID: SG01</g_no>
+			<address>Address: Hubli, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Known Medical Problems: Stomach Infection</known_med_problems>
+
+		<drg_allu>Drug Allergy: None</drg_allu>
+	</patient>
+
+	<patient>
+		<name>	
+		   <fname>First Name: Raj</fname>
+		   <mname>Middle Name: Adil</mname>
+		   <lname>Last Name: Chopra</lname>
+		</name>
+
+		<ssn>SSN: 102031</ssn>
+
+		<age>Age: 25</age>
+
+		<roomno>Room No.: 102</roomno>
+		
+		<insurance type = "primary">
+			<m_id>Prim. Member ID: M02</m_id>
+			<g_no>Prim. Group ID: G02</g_no>
+			<address>Address: Bangalore, KA, India</address>
+		</insurance>
+
+		<insurance type = "secondary">
+			<m_id>Sec. Member ID: SM02</m_id>
+			<g_no>Sec. Group ID: SG02</g_no>
+			<address>Address: Bangalore, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Known Medical Problems: Headache</known_med_problems>
+
+		<drg_allu>Drug Allergy: None</drg_allu>
+	</patient>
+
+	<patient>
+		<name>	
+		   <fname>First Name: Adarsh</fname>
+		   <mname>Middle Name: Viraj</mname>
+		   <lname>Last Name: Rao</lname>
+		</name>
+
+		<ssn>SSN: 102032</ssn>
+
+		<age>Age: 25</age>
+
+		<roomno>Room No.: 103</roomno>
+		
+		<insurance type = "primary">
+			<m_id>Prim. Member ID: M03</m_id>
+			<g_no>Prim. Group ID: G03</g_no>
+			<address>Address: Bangalore, KA, India</address>
+		</insurance>
+
+		<insurance type = "secondary">
+			<m_id>Sec. Member ID: SM03</m_id>
+			<g_no>Sec. Group ID: SG03</g_no>
+			<address>Address: Bangalore, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Known Medical Problems: Headache</known_med_problems>
+
+		<drg_allu>Drug Allergy: None</drg_allu>
+	</patient>
+
+	<patient>
+		<name>	
+		   <fname>First Name: Ritesh</fname>
+		   <mname>Middle Name: Kiran</mname>
+		   <lname>Last Name: Verma</lname>
+		</name>
+
+		<ssn>SSN: 102034</ssn>
+
+		<age>Age: 25</age>
+
+		<roomno>Room No: 104</roomno>
+		
+		<insurance type = "primary">
+			<m_id>Prim. Member ID: M04</m_id>
+			<g_no>Prim. Group ID: G04</g_no>
+			<address>Address: Bangalore, KA, India</address>
+		</insurance>
+
+		<insurance type = "secondary">
+			<m_id>Sec. Member ID: SM04</m_id>
+			<g_no>Sec. Group ID: SG04</g_no>
+			<address>Address: Bangalore, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Known Medical Problems: Headache</known_med_problems>
+
+		<drg_allu>Drug Allergy: None</drg_allu>
+	</patient>
+</hospital>
