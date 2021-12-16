@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="hospitalcxsl"?>
+
+
+<hospital>
+	<heading>Patients' Details</heading>
+	<patient>
+		<name>	
+		   <fname>Aditya</fname>
+		   <mname>Sunil</mname>
+		   <lname>Sharma</lname>
+		</name>
+
+		<ssn>102030</ssn>
+
+		<age>25</age>
+
+		<roomno>101</roomno>
+		
+		<insurance>
+			<m_id> M01</m_id>
+			<g_no>G01</g_no>
+			<address>Hubli, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Stomach Infection</known_med_problems>
+
+		<drg_allu>None</drg_allu>
+	</patient>
+
+	<patient>
+		<name>	
+		   <fname>Raj</fname>
+		   <mname>Adil</mname>
+		   <lname>Chopra</lname>
+		</name>
+
+		<ssn>102031</ssn>
+
+		<age>25</age>
+
+		<roomno>102</roomno>
+		
+		<insurance>
+			<m_id>M02</m_id>
+			<g_no>G02</g_no>
+			<address>Bangalore, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Headache</known_med_problems>
+
+		<drg_allu>None</drg_allu>
+	</patient>
+
+	<patient>
+		<name>	
+		   <fname>Adarsh</fname>
+		   <mname>Viraj</mname>
+		   <lname>Rao</lname>
+		</name>
+
+		<ssn>102032</ssn>
+
+		<age>25</age>
+
+		<roomno>103</roomno>
+		
+		<insurance>
+			<m_id>M03</m_id>
+			<g_no>G03</g_no>
+			<address>Bangalore, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Headache</known_med_problems>
+
+		<drg_allu>None</drg_allu>
+	</patient>
+
+	<patient>
+		<name>	
+		   <fname>Ritesh</fname>
+		   <mname>Kiran</mname>
+		   <lname>Verma</lname>
+		</name>
+
+		<ssn>102034</ssn>
+
+		<age>25</age>
+
+		<roomno>104</roomno>
+		
+		<insurance>
+			<m_id>M04</m_id>
+			<g_no>G04</g_no>
+			<address>Bangalore, KA, India</address>
+		</insurance>
+
+		<known_med_problems>Headache</known_med_problems>
+
+		<drg_allu>None</drg_allu>
+	</patient>
+</hospital>
