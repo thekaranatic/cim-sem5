@@ -1,0 +1,97 @@
+<?php
+
+$name = $_POST["uname"];
+$payMode = $_POST["radio_pay"];
+
+$qty1=0;
+$qty2=0;
+$qty3=0;
+$qty4=0;
+
+$rate1=20;
+$rate2=30;
+$rate3=70;
+$rate4=110;
+
+$prod1="40W Lightbulb for Rs.20";
+$prod2="50W Lightbulb for Rs.30";
+$prod3="90W Lightbulb for Rs.70";
+$prod4="100W Lightbulb for Rs.110";
+
+if (isset($_POST["chbox1"])) {
+	$qty1=$_POST["txt1"];
+}
+if (isset($_POST["chbox2"])) {
+	$qty2=$_POST["txt2"];
+}
+if (isset($_POST["chbox3"])) {
+	$qty3=$_POST["txt3"];
+}
+if (isset($_POST["chbox4"])) {
+	$qty4=$_POST["txt4"];
+}
+
+$total1 = $qty1 * $rate1;
+$total2 = $qty2 * $rate2;
+$total3 = $qty3 * $rate3;
+$total4 = $qty4 * $rate4;
+
+$total = $total1 + $total2 + $total3 + $total4;
+$gTotal = $total + ($total * 13.5/100);
+
+
+// display the username
+echo "Purchase made by $name";
+echo "<br><br>";
+
+// begin table
+echo "<table border=\"1\">";
+echo "<tr>";					// 1st row (head row)
+echo "<th>Item</th>";
+echo "<th>Quantity</th>";
+echo "<th>Price</th>";
+echo "<th>Total</th>";
+echo "</tr>";
+
+// 1st data row
+echo "<tr>";
+echo "<td>$prod1</td>";
+echo "<td>$qty1</td>";
+echo "<td>$rate1</td>";
+echo "<td>$total1</td>";
+echo "</tr>";
+
+// 2nd data row
+echo "<tr>";
+echo "<td>$prod2</td>";
+echo "<td>$qty2</td>";
+echo "<td>$rate2</td>";
+echo "<td>$total2</td>";
+echo "</tr>";
+
+// 3rd data row
+echo "<tr>";
+echo "<td>$prod3</td>";
+echo "<td>$qty1</td>";
+echo "<td>$rate1</td>";
+echo "<td>$total1</td>";
+echo "</tr>";
+
+// 4th data row
+echo "<tr>";
+echo "<td>$prod4</td>";
+echo "<td>$qty4</td>";
+echo "<td>$rate4</td>";
+echo "<td>$total4</td>";
+echo "</tr>";
+
+// close table
+echo "</table>";
+
+// display payment mode chosen by user
+echo "<br>";
+echo "$name chose $payMode";
+echo "<br>";
+echo "Total cost with VAT = Rs.$gTotal";
+
+?>
