@@ -1,0 +1,81 @@
+<html>
+    <head>
+        <title>Phone</title>
+        <style>
+			@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@350&display=swap');
+			@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+
+			body{
+				background: white;
+				color: white;
+				font-size: 25px;
+				font-family: 'Rubik', sans-serif;
+			}
+
+			h1{
+				text-align: left;
+				font-family: 'Inter', sans-serif;
+			}
+
+			input{
+				border: none;
+				border-radius: 5px;
+				font-family: 'Rubik', sans-serif;
+			}
+
+			div{
+				width: auto;
+				display: inline-block;
+				background: rgb(19, 17, 17);
+				margin-top: 80px;
+				padding: 50px;
+				border: none;
+				border-radius: 6px;
+				box-shadow: 5px 10px 70px #363531;
+				backdrop-filter: blur(3px);
+			}
+            #smit{
+                margin-top: 20px;
+				margin-right: 10px;
+				margin-left: 1px;
+				width: 100%;
+				background-color: rgb(23, 102, 23);
+				color: white;
+				padding: 5px;
+            }
+			#rst{
+				margin-top: 20px;
+				margin-left: 10px;
+				margin-right: 3px;
+				width: 90%;
+				padding: 5px;
+				background-color: rgb(238, 54, 54);
+				color: white;
+			}
+		</style>
+    </head>
+
+    <body>
+        <center>
+            <div>
+                <form action="main.php" method="post">
+                   <h1>LogIn</h1>
+                   <table>
+                    <tr>
+						<td>Name:</td>
+						<td><input type="text" name="uname"/>
+					</tr>
+                    <tr>
+                        <td>Ph. No.:</td>
+                        <td><input type="text" name="phno"></td>
+                    </tr>
+                    <tr>
+                        <td><input type="submit" value="SUBMIT" id="smit"></td>
+                        <td><input type="reset" value="RESET" id="rst"></td>
+                    </tr>
+                   </table> 
+                </form>
+            </div>
+        </center>
+    </body>
+</html>
