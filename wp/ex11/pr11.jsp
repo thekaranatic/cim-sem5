@@ -65,31 +65,31 @@
           </tr>
 
           <tr>
-            <td></td><%=prod1%>
-            <td></td><%=i1%>
-            <td></td><%=rate1%>
-            <td></td><%=total1%>
+            <td><%=prod1%></td>
+            <td><%=i1%></td>
+            <td><%=rate1%></td>
+            <td><%=total1%></td>
           </tr>
-
+          
           <tr>
-            <td></td><%=prod2%>
-            <td></td><%=i2%>
-            <td></td><%=rate2%>
-            <td></td><%=total2%>
+            <td><%=prod2%></td>
+            <td><%=i2%></td>
+            <td><%=rate2%></td>
+            <td><%=total2%></td>
           </tr>
-
+          
           <tr>
-            <td></td><%=prod3%>
-            <td></td><%=i3%>
-            <td></td><%=rate3%>
-            <td></td><%=total3%>
+            <td><%=prod3%></td>
+            <td><%=i3%></td>
+            <td><%=rate3%></td>
+            <td><%=total3%></td>
           </tr>
-
+  
           <tr>
-            <td></td><%=prod4%>
-            <td></td><%=i4%>
-            <td></td><%=rate4%>
-            <td></td><%=total4%>
+            <td><%=prod4%></td>
+            <td><%=i4%></td>
+            <td><%=rate4%></td>
+            <td><%=total4%></td>
           </tr>
         </table>
 
