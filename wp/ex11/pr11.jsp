@@ -96,9 +96,6 @@
         <br>
 
         <h4>Total cost with VAT = ₹</h4><%=gTotal%>
-
-
-
        %>
   </body>
 </html>
