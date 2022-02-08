@@ -6,7 +6,7 @@
   <body>
     <%
     
-        String n = req.getParameter("uname");
+        String n = request.getParameter("uname");
         
         int rate1, rate2, rate3, rate4;
         int total, total1, total2, total3, total4;
@@ -28,19 +28,19 @@
         String prod3 = "4 100W long life light bulbs for Rs. 30";
         String prod4 = "8 100W long life light bulbs for Rs. 70";
 
-        if(req.getParameter("chbox1") != null) {
+        if(request.getParameter("chbox1") != null) {
         String s1 = req.getParameter("txt1");
         i1 = Integer.parseInt(s1);
         }
-        if(req.getParameter("chbox2") != null) {
+        if(request.getParameter("chbox2") != null) {
         String s2 = req.getParameter("txt2");
         i2 = Integer.parseInt(s2);
         }
-        if(req.getParameter("chbox3") != null) {
+        if(request.getParameter("chbox3") != null) {
         String s3 = req.getParameter("txt3");
         i3 = Integer.parseInt(s3);
         }
-        if(req.getParameter("chbox4") != null) {
+        if(request.getParameter("chbox4") != null) {
         String s4 = req.getParameter("txt4");
         i4 = Integer.parseInt(s4);
         }
@@ -52,9 +52,53 @@
 
         total = total1 + total2 + total3 + total4;
         gTotal = total + (total * 13.5/100);
+  
+        <h4>Purchase made by</h4><%=n%>
+        <br><br>
 
-        
+        <table>
+          <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+            <th>Total</th>
+          </tr>
 
-        %>
+          <tr>
+            <td></td><%=prod1%>
+            <td></td><%=i1%>
+            <td></td><%=rate1%>
+            <td></td><%=total1%>
+          </tr>
+
+          <tr>
+            <td></td><%=prod2%>
+            <td></td><%=i2%>
+            <td></td><%=rate2%>
+            <td></td><%=total2%>
+          </tr>
+
+          <tr>
+            <td></td><%=prod3%>
+            <td></td><%=i3%>
+            <td></td><%=rate3%>
+            <td></td><%=total3%>
+          </tr>
+
+          <tr>
+            <td></td><%=prod4%>
+            <td></td><%=i4%>
+            <td></td><%=rate4%>
+            <td></td><%=total4%>
+          </tr>
+        </table>
+
+        <br>
+
+        <h4>Total cost with VAT = ₹</h4><%=gTotal%>
+
+
+
+       %>
   </body>
 </html>
