@@ -53,7 +53,7 @@
         total = total1 + total2 + total3 + total4;
         gTotal = total + (total * 13.5/100);
   
-        <h4>Purchase made by <%=n%></h4>
+        <h4>Purchase made by</h4><%=n%>
         <br><br>
 
         <table>
