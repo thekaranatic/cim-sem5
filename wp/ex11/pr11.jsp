@@ -29,19 +29,19 @@
         String prod4 = "8 100W long life light bulbs for Rs. 70";
 
         if(request.getParameter("chbox1") != null) {
-        String s1 = req.getParameter("txt1");
+        String s1 = request.getParameter("txt1");
         i1 = Integer.parseInt(s1);
         }
         if(request.getParameter("chbox2") != null) {
-        String s2 = req.getParameter("txt2");
+        String s2 = request.getParameter("txt2");
         i2 = Integer.parseInt(s2);
         }
         if(request.getParameter("chbox3") != null) {
-        String s3 = req.getParameter("txt3");
+        String s3 = request.getParameter("txt3");
         i3 = Integer.parseInt(s3);
         }
         if(request.getParameter("chbox4") != null) {
-        String s4 = req.getParameter("txt4");
+        String s4 = request.getParameter("txt4");
         i4 = Integer.parseInt(s4);
         }
 
